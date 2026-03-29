@@ -451,6 +451,19 @@ button {
   padding-left: 2.7rem;
 }
 
+.skills_group_heading {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--first-color);
+  margin: var(--mb-0-5) 0 calc(var(--mb-0-25) * -1);
+}
+
+.skills_group_heading:first-child {
+  margin-top: 0;
+}
+
 .skills_titles {
   display: flex;
   justify-content: space-between;

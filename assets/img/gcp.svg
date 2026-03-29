@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="gcpTitle gcpDesc">
+  <title id="gcpTitle">Google Cloud Platform logo</title>
+  <desc id="gcpDesc">Stylized multicolor cloud icon representing Google Cloud Platform</desc>
+  <path d="M24 47a13 13 0 0 1 0-26c1 0 2 0 3 .3A15 15 0 0 1 55 30a10 10 0 0 1-1 20H24Z" fill="none" stroke="#4285F4" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M17 41a13 13 0 0 1 10-20" fill="none" stroke="#EA4335" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M27 21a15 15 0 0 1 18 6" fill="none" stroke="#FBBC04" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M54 30a10 10 0 0 1 0 17" fill="none" stroke="#34A853" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+</svg>
