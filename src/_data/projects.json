@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "gke-migration",
+    "title": "Zero-Downtime Cloud Run → GKE Migration",
+    "summary": "Sole-engineer migration of a live SaaS product to a Kyverno-gated GKE cluster with a hardened, signed CI/CD pipeline — zero downtime, 13 production issues root-caused independently.",
+    "tags": ["GKE", "ArgoCD", "Kustomize", "Kyverno", "Gateway API", "Cloud Build", "Cosign"],
+    "status": "Production",
+    "role": "Sole engineer",
+    "caseStudy": true,
+    "link": null
+  },
+  {
+    "slug": "container-security",
+    "title": "Container Supply-Chain Security Pattern",
+    "summary": "Authored a compliance-mapped container security standard and hardened build pipeline (scan, sign, attest) — later replicated across four additional projects and three enterprise clients.",
+    "tags": ["Docker", "Cloud Build", "Trivy", "Grype", "Syft", "Cosign", "Kubernetes"],
+    "status": "Production",
+    "role": "Sole engineer",
+    "caseStudy": true,
+    "link": null
+  },
+  {
+    "slug": "gcp-platform",
+    "title": "Enterprise GCP Infrastructure Platform",
+    "summary": "Led 4 of 11 Terraform modules on a platform that cut new-client GCP setup from 2–3 days to 15–30 minutes, with 75–85% CIS benchmark compliance out of the box.",
+    "tags": ["Terraform", "GCP", "GKE", "VPC", "Cloud SQL", "IAM"],
+    "status": "Production",
+    "role": "Module lead, 4-person team",
+    "caseStudy": true,
+    "link": null
+  },
+  {
+    "slug": "monitoring-platform",
+    "title": "Multi-Client SaaS Monitoring Platform",
+    "summary": "9-module Terraform platform for GCP Cloud Monitoring with a primary/secondary notification-channel pattern — onboarding a new client is a config change, not new code.",
+    "tags": ["Terraform", "Cloud Monitoring", "Pub/Sub", "Redis", "Slack", "PagerDuty"],
+    "status": "Production",
+    "role": "Contributor",
+    "caseStudy": false,
+    "link": null
+  },
+  {
+    "slug": "gitops-consolidation",
+    "title": "GitOps Coverage Consolidation",
+    "summary": "Brought two previously-unmanaged production workloads under ArgoCD and scoped a tighter project boundary — zero downtime, zero pod restarts.",
+    "tags": ["ArgoCD", "Helm", "Kubernetes", "GKE"],
+    "status": "Production",
+    "role": "Sole engineer",
+    "caseStudy": false,
+    "link": null
+  },
+  {
+    "slug": "alert-migration-cli",
+    "title": "Alert-Routing Migration CLI",
+    "summary": "Python discover/plan/apply tool that safely migrated 122 alert policies across 4 GCP projects with zero unintended side effects, and cleaned up 46 obsolete alerts.",
+    "tags": ["Python", "GCP Cloud Monitoring", "CLI", "Slack"],
+    "status": "Completed",
+    "role": "Sole engineer",
+    "caseStudy": false,
+    "link": null
+  }
+]

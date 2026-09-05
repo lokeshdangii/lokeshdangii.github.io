@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+<header class="case-header container">
+  <a href="/#projects" class="case-header__back">← All projects</a>
+  <h1 class="case-header__title">{{ title }}</h1>
+  <p class="case-header__meta">{{ role }} · {{ duration }}</p>
+  <div class="case-header__tags">
+    {% for tag in tags %}<span class="chip">{{ tag }}</span>{% endfor %}
+  </div>
+</header>
+
+<article class="case-body container">
+  {{ content | safe }}
+
+  <div class="case-footer-nav">
+    <a href="/#projects" class="btn">← All projects</a>
+    <a href="#contact" class="btn btn--primary">Get in touch</a>
+  </div>
+</article>

@@ -86,3 +86,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+### Eleventy / Node ###
+node_modules/
+_site/
+.cache/
