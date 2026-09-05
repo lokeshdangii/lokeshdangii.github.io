@@ -2,7 +2,7 @@
   {
     "slug": "gke-migration",
     "title": "Zero-Downtime Cloud Run → GKE Migration",
-    "summary": "Sole-engineer migration of a live SaaS product to a Kyverno-gated GKE cluster with a hardened, signed CI/CD pipeline — zero downtime, 13 production issues root-caused independently.",
+    "summary": "Sole-engineer migration of a live SaaS product to a Kyverno-gated GKE cluster with a hardened, signed CI/CD pipeline — zero downtime, with production issues across IAM, networking, and CI/CD root-caused independently along the way.",
     "tags": ["GKE", "ArgoCD", "Kustomize", "Kyverno", "Gateway API", "Cloud Build", "Cosign"],
     "status": "Production",
     "role": "Sole engineer",

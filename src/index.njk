@@ -7,8 +7,8 @@ description: DevOps / Platform Engineer specializing in Kubernetes platform engi
   <p class="hero__eyebrow">// {{ site.role | lower }}</p>
   <h1 class="hero__title">Lokesh Dangi</h1>
   <p class="hero__lede">
-    I build and secure the platforms other engineers deploy on — Kubernetes, GitOps, and
-    container supply chains at Appointy, specializing in {{ site.specialization }}.
+    I work on Kubernetes and cloud infrastructure at Appointy — container security, GitOps,
+    and the Terraform platform that provisions and runs it.
   </p>
   <div class="hero__ctas">
     <a href="#projects" class="btn btn--primary">View work</a>
@@ -28,21 +28,13 @@ description: DevOps / Platform Engineer specializing in Kubernetes platform engi
   <div class="about__grid">
     <div class="about__body">
       <p>
-        I'm a <strong>DevOps / Platform Engineer at Appointy</strong>, specializing in
-        <strong>Kubernetes platform engineering, GitOps, and container supply-chain security</strong>
-        — not "DevOps" as a catch-all. Most of my work has been sole-engineer ownership of
-        production infrastructure: migrating live products onto Kubernetes without downtime,
-        writing the security standards other engineers on my team now build against, and
-        defining the naming and governance conventions that a multi-module Terraform platform
-        runs on today.
-      </p>
-      <p>
-        A pattern I've learned to trust more than almost anything else: a healthy-looking status
-        doesn't mean a system actually works. A Kubernetes pod reporting <code>Running</code> and
-        <code>Ready</code> doesn't prove its Service is reachable, and GitOps state can silently
-        diverge from what's actually deployed if you trust the wrong signal under pressure. I
-        verify behavior, not just object status — it's caught real production bugs that pure
-        health checks missed.
+        I'm a DevOps / Platform Engineer at Appointy, working on Kubernetes and cloud
+        infrastructure day to day. I maintain our container security standard and the CI/CD
+        pipeline behind it, enforce Kyverno policies across our clusters, and deploy applications
+        through Helm and ArgoCD as part of our GitOps setup. I also help run the Terraform
+        platform we use to provision GCP infrastructure for new clients — cutting setup from a
+        few days to under an hour — along with a companion module that provisions monitoring
+        alerts for each client in minutes.
       </p>
     </div>
   </div>
