@@ -102,7 +102,7 @@ code, .mono { font-family: var(--mono); }
 .container { max-width: var(--container); margin: 0 auto; padding: 0 1.5rem; }
 .container--wide { max-width: var(--container-wide); margin: 0 auto; padding: 0 1.5rem; }
 
-.section { padding: var(--mb-8) 0; }
+.section { padding-top: var(--mb-8); padding-bottom: var(--mb-8); }
 .section__eyebrow {
   font-family: var(--mono);
   font-size: 0.8rem;
@@ -261,11 +261,13 @@ code, .mono { font-family: var(--mono); }
 
 @media (max-width: 767px) {
   .section {
-    padding: var(--mb-6) 0;
+    padding-top: var(--mb-6);
+    padding-bottom: var(--mb-6);
   }
   .container,
   .container--wide {
     padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 }
 
@@ -283,7 +285,8 @@ code, .mono { font-family: var(--mono); }
    Hero
    ========================================================= */
 .hero {
-  padding: var(--mb-8) 0 var(--mb-6);
+  padding-top: var(--mb-8);
+  padding-bottom: var(--mb-6);
 }
 .hero__eyebrow {
   font-family: var(--mono);
