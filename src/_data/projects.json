@@ -35,8 +35,8 @@
     "summary": "9-module Terraform platform for GCP Cloud Monitoring with a primary/secondary notification-channel pattern — onboarding a new client is a config change, not new code.",
     "tags": ["Terraform", "Cloud Monitoring", "Pub/Sub", "Redis", "Slack", "PagerDuty"],
     "status": "Production",
-    "role": "Contributor",
-    "caseStudy": false,
+    "role": "Sole engineer",
+    "caseStudy": true,
     "link": null
   },
   {
