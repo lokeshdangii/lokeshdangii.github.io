@@ -314,6 +314,27 @@ code, .mono { font-family: var(--mono); }
 }
 .hero__socials a:hover { color: var(--accent); border-color: var(--accent); }
 
+.hero__grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mb-6);
+}
+.hero__content { flex: 1; min-width: 0; }
+.hero__photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+@media (max-width: 720px) {
+  .hero__grid { flex-direction: column-reverse; text-align: center; }
+  .hero__photo { width: 160px; height: 160px; }
+  .hero__ctas, .hero__socials { justify-content: center; }
+}
+
 /* =========================================================
    About
    ========================================================= */
